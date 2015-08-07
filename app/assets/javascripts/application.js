@@ -10,6 +10,6 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require app
-//= require uiroute
+//= require angular
+//= require angular-ui-router
 //= require_tree .
