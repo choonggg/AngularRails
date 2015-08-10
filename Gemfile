@@ -15,6 +15,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'sprockets', '2.12.3'
 gem 'bower'
 gem 'angular-rails-templates'
+gem 'responders', '~> 2.0' 
+gem 'angular_rails_csrf'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 

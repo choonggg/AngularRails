@@ -13,10 +13,10 @@
         {{post.title}}
       </span>
       <span>
-        Upvotes: {{post.upvotes}}
+        Upvotes: <span ng-hide="post.upvotes">0</span><span>{{post.upvotes}}</span>
       </span>
       <span>
-        <a href="#/posts/{{$index}}">Comments</a>
+        <a href="#/posts/{{post.id}}">Comments</a>
       </span>
     </span>
   </div>
